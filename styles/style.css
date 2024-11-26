@@ -1,0 +1,79 @@
+/*Selector de clase . */
+.importante {
+    color: red;
+}
+
+
+
+/* Selector de ID (Identificador) # */
+
+#pie {
+    background-color: #d00;
+    color: #fff;
+}
+
+
+/*Avisos */
+
+.caja {
+    /*border-radius: 10px;*/
+    padding: 20px;
+    border: 4px solid;
+    margin: 20px 0px;
+    /*border-top: 10px solid;
+    border-right: 40px solid;
+    border-bottom: 2px solid;
+    border-left: 10px solid;*/
+    box-sizing: border-box;
+/* Tipografía */
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+/* Alinear texto */
+    text-align: center;
+}
+
+.error {
+    background-color: rgb(240, 182, 182);
+    color: rgb(150, 0, 0);
+    border-color: #d00;
+}
+
+.exito {
+    background-color: rgb(212, 252, 200);
+    color: rgb(16, 117, 16);
+    border-color: rgb(9, 106, 35);
+}
+
+.advertencia {
+    background-color: rgb(255, 235, 189);
+    color: rgb(71, 59, 32);
+    border-color:rgb(71, 59, 32);; 
+}
+
+
+ Selector de atributo [atributo] 
+
+[type="tel"] {
+    border-color: #d00;
+}
+
+[disabled] {
+    border-color: blue;
+}
+
+
+/* Hijo directo > 
+
+.caja > h3 {
+    color: #00F;
+}
+
+/* Selector Adyascente + 
+
+h3 + p {
+    color: #0F0;
+}
+
+*/
